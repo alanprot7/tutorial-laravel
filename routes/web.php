@@ -17,8 +17,17 @@ Route::get('/', function () {
 
     $nome = "Alan";
     $idade = 42;
+    $arr = [10,20,30,40,50];
+    $nomes = ["Mateus", "Maria", "Marcos", "João"];
 
-    return view('welcome', ['nome' => $nome, 'idade' => $idade, 'profissao' => "programador" ]);
+    return view('welcome', [
+        'nome' => $nome, 
+        'idade' => $idade, 
+        'profissao' => "programador",
+        'arr' => $arr,
+        'nomes' => $nomes
+
+    ]);
 });
 
 
