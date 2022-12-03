@@ -12,7 +12,7 @@ body {
 
 header {
     background-color: #fff;
-    border-color: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
 }
 
 .row {
@@ -124,6 +124,23 @@ header {
 .card-participants {
     font-size: 14px;
     color: #757575;
+}
+
+/* Event create page */
+
+#event-create-container {
+    padding: 30px;
+
+}
+
+#event-create-container label {
+    font-weight: bold;
+}
+
+#event-create-container input,
+#event-create-container select,
+#event-create-container textarea {
+    font-size: 12px;
 }
 
 /* footer */
